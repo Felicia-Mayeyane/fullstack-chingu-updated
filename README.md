@@ -3,6 +3,8 @@ A website for a coffee shop that sells delicious pastries and creamy coffee that
 
 **Video Demo:** 
 
+https://github.com/Felicia-Mayeyane/fullstack-chingu-updated/assets/119903285/3114ab8f-be30-44ef-a4fa-bed4deab5cbb
+
 
 
 ## How It's Made:
@@ -20,3 +22,5 @@ I had intially used opted to use MongoDB however I had to change it as I came to
 ## Lessons Learned:
 
 I took some time away from the project because for the life of me I could not get my backend workng, something was always wrong with myphpadmin. simple things sucb as data not showing up in the database and the form not being responsive. I had underestimated how complicated the backend was. however there was light at the end of the tunnel,  I worked on my routing and ensuring I was inserting the correct data to the appropriate database, ofcourse I am writing about this like it was easy peazy lemon squeazy but it was frustratinng! really frustrating! learned some much more about the backend through struggling with this project. In conclusion, backend.is.not.easy.peazy.
+
+## ScreenShots
