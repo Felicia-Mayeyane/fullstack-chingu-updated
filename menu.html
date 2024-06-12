@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Chingu & Coffee</title>
+    <style>
+
+img{
+    width:100px;
+    border-radius: 15px;
+    padding: 9px;
+    list-style: none;
+    background: pink;
+    border: 1px thin transparent;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+body {
+    background: black;
+    color: white;
+    /*display: flex;*/
+    justify-content: center;
+
+}
+ul {
+  list-style-type: none;
+}
+.menu h2{
+    text-align: center;
+    line-height: 1.5;
+    backdrop-filter: blur(10px);
+}
+.menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease;
+    grid-template-columns: repeat(1,1fr);
+}
+.menu-section:hover{
+    border-color: pink;
+    transform: scale(1.02);
+    background-color: white;
+    color: black;
+}
+
+.order-form {
+    width: 70%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid pink;
+    margin: 1rem 0;
+    resize: none;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    /*font-size: 1.6rem;*/
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: black;
+    color: pink;
+    border: 7px solid pink;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <!-- Header and other content -->
+
+    <section class="menu" id="menu">
+        <h2 class="heading">Menu</h2>
+        
+        <!-- Coffee items -->
+        <div class="menu-section">
+            <h3>Coffee</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                <ul>
+               <li><img src="images/honey-almond-latte.jpg" alt="Hanok Honey Latte"></li><span>Hanok Honey Latte</span>
+                   <li><img src="images/cheongju.jpg" alt="Cheongju Coffee"></li> <span>Cheongju Coffee</span>
+                    <li><img src="images/blackcofee.jpeg" alt="Seoul Sunrise Blend"></li><span>Seoul Sunrise Blend</span>
+                    <li><img src="images/dalgona.avif" alt="Daegu Dalgona"></li><span>Daegu Dalgona</span>
+                </ul>
+                    
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- Dessert items -->
+        <div class="menu-section">
+            <h3>Desserts</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <ul>
+                   <li><img src="images/crookie.png" alt="Dessert 1"></li> <span>Crookie</span>
+                   <li><img src="images/honeybread.png" alt="Dessert 1"></li><span>Honey Bread</span>
+                </ul>
+        
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Order form -->
+        <div class="order-form">
+            <h3>Place Your Order</h3>
+            <form action="order.php" method="POST">
+                <div class="input-box">
+                    <input type="text" name="item_name" placeholder="Item Name">
+                    <input type="number" name="quantity" placeholder="Quantity">
+                </div>
+                <textarea name="additional_info" cols="30" rows="4" placeholder="Additional Information"></textarea>
+                <input type="submit" name="submit_order" value="Place Order Here" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer and other content -->
+
+    <script src="main.js"></script>
+</body>
+</html>
+

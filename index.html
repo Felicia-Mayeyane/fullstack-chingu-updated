@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chingu & Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Chingu &<span>Coffee</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#coffee">Coffees</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1>Chingu<span>&Coffee</span></h1>
+            <p>At Chingu & Coffee, we believe that coffee is more than just a beverage—it's a catalyst for connection. Whether you're catching up with old friends, meeting new ones, or simply savoring a moment of solitude, our cozy atmosphere and welcoming staff make every visit feel like coming home.</p>
+             <a href="menu.html" class="btn">Order Now</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About<span>Us</span></h2>
+                <p>In addition to our expertly brewed coffee, Chingu & Coffee offers a tantalizing array of Korean-inspired treats to tempt your taste buds. Indulge in our selection of freshly baked pastries, savory snacks, and delightful desserts, each one a delicious homage to the flavors of Korea. Whether you're craving a classic kimchi toastie or a decadent matcha chiffon cake, our menu is sure to delight and surprise with every bite.
+                </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="coffee" id="coffee">
+        <h2 class="heading">Coffees</h2>
+
+        <div class="coffee-container">
+
+            <div class="coffee-box">
+                <img src="images/bluecoffe.avif" alt="">
+                <div class="coffee-info">
+                    <h4>Seoul Sunrise Blend</h4>
+                    <a href="#">
+                        <i class='bx bxs-coffee'></i>
+                    </a>
+            </div>
+        </div>
+            <div class="coffee-box">
+                <img src="images/coffeeshot.png" alt="">
+                <div class="coffee-info">
+                    <h4>Cheongju Coffee</h4>
+                    <a href="#">
+                        <i class='bx bxs-coffee'></i>
+                    </a>
+            </div>
+        </div>
+            <div class="coffee-box">
+                <img src="images/delishCoffee.avif" alt="">
+                <div class="coffee-info">
+                    <h4>Hanok Honey Latte</h4>
+                    <a href="#">
+                        <i class='bx bxs-coffee'></i>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+    <h2 class="heading">Reviews</h2>
+    <div class="reviews-container">
+        <div class="reviews-box">
+            <i class='bx bx-user-circle'></i>
+            <h3>Emily Che</h3>
+            <p>Amazing people, amazing coffee. What more could anyone ask for</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    <div class="reviews-box">
+        <i class='bx bx-user-circle'></i>
+        <h3>Lily Massei</h3>
+        <p>Reminds me of a coffeeshop in Gyeongbuk-do</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+<div class="reviews-box">
+    <i class='bx bx-user-circle'></i>
+    <h3>Elias Kim</h3>
+    <p>I love the coffee here and the many options for pastries. A visit is always an adventure</p>
+    <a href="#" class="btn">Read More</a>
+</div>
+    
+
+
+<div class="reviews-box">
+    <i class='bx bx-user-circle'></i>
+    <h3>Nina Lewis</h3>
+    <p>There is nothing not to love about Chingu & Coffee, </p>
+    <a href="#" class="btn">Read More</a>
+</div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Us</span></h2>
+
+    <form action="connect.php" method="POST">
+        <div class="input-box">
+            <input type="text" name="full_name" placeholder="Full Name">
+            <input type="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="phone_number" placeholder="Phone Number">
+            <input type="text" name="topic" placeholder="Subject">
+        </div>
+       <!-- <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea> -->
+        <input type="submit" name="submit" value="Send Message" class="btn"> 
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="social">
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-pinterest'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Products</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Privacy</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        Chingu & Coffee Copyright: Felicia Mayeyane
+    </p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
