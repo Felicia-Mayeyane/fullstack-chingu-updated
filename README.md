@@ -1,5 +1,7 @@
 # Chingu & Coffee Full Stack Website
-A website for a coffee shop that sells delicious pastries and creamy coffee that reminds you of the streets of Daegu. Using the Website: 1. You can make an order 2. Fill out a form for the coffee shop to add your details to their database and contact you in the future. 
+A website for a coffee shop that sells delicious pastries and creamy coffee that reminds you of the streets of Daegu.
+
+Using the Website: 1. You can make an order 2. Fill out a form for the coffee shop to add your details to their database and contact you in the future. 
 
 **Video Demo:** 
 
