@@ -14,6 +14,7 @@ https://github.com/Felicia-Mayeyane/fullstack-chingu-updated/assets/119903285/31
 **Tech used:** HTML, CSS, JavaScript, PHP & SQL
 
 Front End : HTML, CSS & JS
+
 BackEnd : PHP & SQL 
 
 ## Optimizations
